@@ -16,6 +16,8 @@
   - Replace ``go tool vet`` with ``go vet`` [GH-1548]
   - Remove the deprecated ``go-megacheck`` checker, which is replaced by
     ``go-staticcheck``. [GH-1583]
+  - Remove the ``coq`` checker; most Coq files are large enough to make
+    rechecking the whole file excessively slow. [GH-1692]
 
 - New syntax checkers:
 
